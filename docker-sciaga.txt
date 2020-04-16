@@ -1,0 +1,17 @@
+Build the container
+$ docker build -t asmx86 .
+
+Start the container
+$ docker run -it --name asm-dev asmx86
+
+Get back into the container
+$ docker start -ai asm-dev
+
+Compile asm code
+$ touch file.o                  # create "file.o"
+$ as [..] file.s –o file.o        # compile source code to „file.o”
+$ ld [..] file.o –o file      # Consolidation – result in executable file „file”
+$ ./file                        # run program „file” from current directory(./) 
+
+Kopiowanie plików
+docker cp asm-dev:/workspace/test1/test3.s h:\docker

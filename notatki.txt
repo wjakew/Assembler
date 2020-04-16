@@ -1,0 +1,12 @@
+Procesory do zamodelowania:
+
+Atmel AVR (najlepiej seria megaAVR, popularna ATmega)
+Intel i860 (80860)
+Intel i960 (80960)
+Motorola M88000 NAJLEPIEJ MC88410.
+
+Pe³en model.
+
+Prosty kompilator:
+u¿ywaj¹c Analizy LR nie LL.
+opis gramatyki jêzyka kompilowanego.
